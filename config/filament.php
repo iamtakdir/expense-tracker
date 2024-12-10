@@ -75,7 +75,7 @@ return [
     |
     */
 
-    'brand' => env('APP_NAME'),
+    'brand' => "Masjid Expanse Tracker",
 
     /*
     |--------------------------------------------------------------------------
@@ -143,7 +143,7 @@ return [
         'path' => app_path('Filament/Widgets'),
         'register' => [
             Widgets\AccountWidget::class,
-            Widgets\FilamentInfoWidget::class,
+           
             App\Filament\Widgets\StatsOverview::class,
             App\Filament\Widgets\RecentActivity::class,
         ],
@@ -195,7 +195,7 @@ return [
             ],
         ],
         'footer' => [
-            'should_show_logo' => true,
+            'should_show_logo' => false,
         ],
         'max_content_width' => 'full',
         'tables' => [
